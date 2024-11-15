@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delight</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Food Delight</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#dishes">Our Dishes</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <h2>Welcome to Food Delight</h2>
+        <p>Discover delicious dishes crafted with love and the finest ingredients!</p>
+    </section>
+
+    <section id="dishes" class="dishes-section">
+        <h2>Our Featured Dishes</h2>
+        <div class="dishes-container">
+            <div class="dish">
+                <h3>Pizza</h3>
+                <p>A classic Italian delight topped with cheese and fresh ingredients.</p>
+            </div>
+            <div class="dish">
+                <h3>Burger</h3>
+                <p>Juicy and flavorful, our burgers are a treat for the taste buds.</p>
+            </div>
+            <div class="dish">
+                <h3>Sushi</h3>
+                <p>Authentic Japanese sushi with fresh fish and perfectly seasoned rice.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+        <p id="responseMessage"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
