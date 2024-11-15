@@ -8,5 +8,6 @@ function submitForm() {
         document.getElementById("contactForm").reset();
     } else {
         document.getElementById("responseMessage").textContent = "Please fill out all fields.";
+        
     }
 }
